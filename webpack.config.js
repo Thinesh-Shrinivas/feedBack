@@ -28,11 +28,6 @@ module.exports= ({mode,presets}) =>{
                 }
             ]
           },
-          plugins:[new htmlWebpackPlugin({
-              template: __dirname+'/public/index.html',
-              inject: 'body',
-              filename:'index.html'
-          }), new webpack.ProgressPlugin()]
     },
     configData(mode)
     );
