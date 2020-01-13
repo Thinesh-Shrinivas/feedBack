@@ -3,7 +3,7 @@ import './index.css';
 import App from './App';
 
 
-function FeedBack() {
+function Feed() {
     return (
       <div className="App">
         <App />
@@ -11,4 +11,4 @@ function FeedBack() {
     );
   }
 
-export default FeedBack;
+export default Feed;
