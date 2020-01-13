@@ -2,7 +2,7 @@ import React from 'react';
 import './index.css';
 import App from './App';
  
-class Feed extends React{
+class FeedBack extends React.Component{
   render(){
     return(
       <App />
@@ -10,4 +10,4 @@ class Feed extends React{
   }
 }
 
-export default Feed;
+export default FeedBack;
