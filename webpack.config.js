@@ -8,7 +8,7 @@ const configData = env =>require(`./config/webpack.${env}`)(env);
 module.exports= ({mode,presets}) =>{
     return webpackMerge({
         mode,
-        entry:'./src/index.js',
+        entry:'./src/prod.js',
         output:{
             path: path.resolve(__dirname, 'dist'),
             filename:'bundle.js'

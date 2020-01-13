@@ -7,8 +7,8 @@ module.exports = ()=>({
     module:{
         rules:[
             {
-                test:/\.css$/,
-                use:[minCssExtractPlugin.loader,"css-loader"]
+                test:/\.(css|scss)$/,
+                use:[minCssExtractPlugin.loader,"css-loader", "sass-loader"]
             }
         ]
 },
