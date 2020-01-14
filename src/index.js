@@ -2,6 +2,6 @@ import React from 'react';
 import './index.css';
 import FeedbackComp from './FeedbackComp';
  
-export {
+module.export = {
   FeedbackComp
 }
