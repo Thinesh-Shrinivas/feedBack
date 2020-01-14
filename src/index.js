@@ -1,7 +1,7 @@
 import React from 'react';
 import './index.css';
-import App from './App';
+import FeedbackComp from './FeedbackComp';
  
 export {
-	App
+  FeedbackComp
 }
