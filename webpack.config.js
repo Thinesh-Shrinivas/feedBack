@@ -11,7 +11,8 @@ module.exports= ({mode,presets}) =>{
         entry:'./src/index.js',
         output:{
             path: path.resolve(__dirname, 'dist'),
-            filename:'bundle.js'
+            filename:'bundle.js',
+            libraryTarget: 'commonjs2'
         },
         module: {
             rules: [
@@ -28,6 +29,7 @@ module.exports= ({mode,presets}) =>{
                 }
             ]
           },
+          libraryTarget: 'commonjs2'
     },
     configData(mode)
     );
